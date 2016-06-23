@@ -1,4 +1,34 @@
 p {
 	font-family: Comic Sans, Comic Sans MS, cursive;
-	color: #FF2230;
+	color: #D02230;
 }
+
+.upper_stripe {
+	position: fixed;	
+	background-color: #CCE6FF;
+	height: 100px;
+	width: 600px;
+	border: 3px solid black;
+	}
+
+.main {
+	background-color: #FFD880 ;
+	height: 1000px;
+	}
+
+.bottom_stripe {
+	background-color: #442031;
+	height: 50px;
+	}
+
+.button_area {
+	height: 40px;
+	width: 600px;
+
+}
+
+.button {
+	height: 40px;
+	width: 50px;
+	background-color: #D3F2FF;
+	}
