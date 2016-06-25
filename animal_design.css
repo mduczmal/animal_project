@@ -1,4 +1,12 @@
-p {
+h1 {	font-family: Verdana, sans-serif;
+
+}
+
+h2 {	font-family: Helvetica, serif;
+	font-style: italic;
+}
+
+h3 {
 	font-family: Comic Sans, Comic Sans MS, cursive;
 	color: #D02230;
 }
