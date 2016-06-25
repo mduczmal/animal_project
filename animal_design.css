@@ -35,6 +35,10 @@ h3 {
 
 }
 
+nav li {
+	display:inline;
+}
+
 .button {
 	height: 40px;
 	width: 50px;
