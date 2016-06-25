@@ -3,13 +3,12 @@ p {
 	color: #D02230;
 }
 
-.upper_stripe {
-	position: fixed;	
+/*.upper_stripe {
 	background-color: #CCE6FF;
 	height: 100px;
 	width: 600px;
 	border: 3px solid black;
-	}
+	}*/
 
 .main {
 	background-color: #FFD880 ;
@@ -24,6 +23,7 @@ p {
 .button_area {
 	height: 40px;
 	width: 600px;
+	background-color: #CCE6FF;
 
 }
 
