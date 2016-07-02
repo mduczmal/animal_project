@@ -1,14 +1,10 @@
-h1 {	font-family: Verdana, sans-serif;
-
+h1 {
+	font-family: Verdana, sans-serif;
 }
 
-h2 {	font-family: Georgia, serif;
+header p {
+	font-family: Georgia, serif;
 	font-style: italic;
-}
-
-h3 {
-	font-family: Comic Sans, Comic Sans MS, cursive;
-	color: #D02230;
 }
 
 /*.upper_stripe {
@@ -17,6 +13,10 @@ h3 {
 	width: 600px;
 	border: 3px solid black;
 	}*/
+.intro {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	color: #D02230;
+}
 
 .main {
 	background-color: #FFD880 ;
@@ -39,7 +39,17 @@ h3 {
 	background-color: #CCE6FF;
 
 }
-
+/* Uncomment to hide navigation heading
+.button_area h2 {
+	position: absolute; !important;
+	clip: rect(1px 1px 1px 1px);
+	padding: 0px !important;
+	border: 0px !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+*/
 nav li {
 	display:inline;
 }
