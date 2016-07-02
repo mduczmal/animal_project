@@ -27,7 +27,12 @@ h3 {
 	background-color: #442031;
 	height: 50px;
 	}
-
+.bottom_stripe p {
+        font-family: Verdana, sans-serif;
+	font-size: 80%;       
+	color: #FFFFFF;
+	padding: 16px 2px 16px 2px;
+}
 .button_area {
 	height: 100px;
 	width: 600px;
