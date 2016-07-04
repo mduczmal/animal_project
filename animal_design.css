@@ -70,18 +70,24 @@ nav li {
 }
 
 li.button {
-	display:inline;
 	float:left;
 	position: relative;
 	height: 40px;
 	width: 50px;
 	background-color: #D3F2FF;
-	list-style: none;
 	}
-li.button > ul {
-    background: #444; 
+
+li.button ul {
+    background: #222; 
     display: none; 
+    position: absolute;
+    text-align: left;
+    padding: 5px;
+    left: 0px;
+    right: -200px;
+    top: 100%;
 }
 
 li.button:hover { background: #555;  }
 li.button:hover ul { display: block;  }
+li.button:hover ul li { display: block;  }
