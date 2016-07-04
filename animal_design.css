@@ -19,9 +19,24 @@ header p {
 }
 
 .main {
-	background-color: #FFD880 ;
+	background-color: #FFFFFF ;
 	height: 1000px;
 	}
+
+main img {
+	height: 160px;
+	width: 240px;
+	border-radius: 5px;
+	margin: 40px;
+	border: solid black 2px;
+
+}
+
+main img:hover {
+	/*height: 80px;
+	width: 120px;*/
+	transform: scale(1.1);
+}
 
 .bottom_stripe {
 	background-color: #442031;
@@ -59,3 +74,9 @@ nav li {
 	width: 50px;
 	background-color: #D3F2FF;
 	}
+
+.rounded {
+	   -webkit-border-radius: 20px;
+	      -moz-border-radius: 20px;
+	         border-radius: 20px;
+	 }
