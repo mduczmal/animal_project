@@ -69,9 +69,19 @@ nav li {
 	display:inline;
 }
 
-.button {
+li.button {
+	display:inline;
+	float:left;
+	position: relative;
 	height: 40px;
 	width: 50px;
 	background-color: #D3F2FF;
+	list-style: none;
 	}
+li.button > ul {
+    background: #444; 
+    display: none; 
+}
 
+li.button:hover { background: #555;  }
+li.button:hover ul { display: block;  }
