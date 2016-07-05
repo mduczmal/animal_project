@@ -88,6 +88,11 @@ li.button ul {
     top: 100%;
 }
 
+.sepia {
+	-webkit-filter: sepia(1);
+	-moz-filter: sepia(1);
+	filter: sepia(1);
+}
 li.button:hover { background: #555;  }
 li.button:hover ul { display: block;  }
 li.button:hover ul li { display: block;  }
